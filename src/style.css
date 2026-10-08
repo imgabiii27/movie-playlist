@@ -1,0 +1,51 @@
+body {
+  background: #071318;
+  color: rgb(13, 116, 134);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin: 50px;
+}
+
+h1 {
+  color: rgb(113, 31, 207);
+  text-align: center;
+  background-color: #aaa;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  
+
+}
+
+.card {
+  width: 180px;
+  background: #503268;
+  padding: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  
+  
+}
+
+.card:hover {
+  background: #b0c211;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  
+
+}
+
+.poster {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
